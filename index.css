@@ -17,7 +17,31 @@ main {
 }
 
 footer {
-  background-color: #DAEEEF;
   height: 100%;
   width: 100%;
+  background-color: #DAEEEF;
+
 }
+
+.flex-container {
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  width: 100vw;
+
+}
+
+.setWidth {
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+.item {
+  width: 100px;
+  background-color: #f3c5e0;
+  height: 100px;
+  margin: 5px;
+  
+}
+
+
